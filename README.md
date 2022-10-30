@@ -28,3 +28,16 @@ No primeiro acesso, coloque o usuário `neo4j` e a senha escolhida.
 
 ## 4 - Verificar o dataset escolhido
 
+Vamos trabalhar com o famoso dataset Titanic e 
+
+## 5 - Construir o modelo de dados com **arrows.app**
+
+Visite https://arrows.app.
+
+Vamos trabalhar com a modelagem do Titanic da seguinte forma:
+
+![modelo_de_dados](/img/Titanic.png)
+
+## 6 - Leitura dos dados
+
+...
