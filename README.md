@@ -1,3 +1,30 @@
 # Aula - Introdução ao Neo4j
 
-# aula_neo4j
+Prof. Neylson Crepalde
+
+Este repositório contém os códigos para uma aula introdutória sobre o Neo4j. Passo a passo:
+
+## 1 - Instalação do docker
+
+Existem várias formas de executar o Neo4j localmente. Pra mim, a mais eficiente delas é executar via docker. Por isso, vamos adotar este método nessa aula.
+
+## 2 - Subir o cluster Neo4j
+
+Um código bash para subir o Neo4j versão 5.1.0 está no arquivo `cluster_up.sh`. Para executá-lo, 
+
+1. Crie uma pasta `neo4j` dentro de sua pasta HOME.
+2. Dentro da pasta `neo4j`, crie 4 pastas com os respectivos nomes: `data`, `logs`, `import` e `plugins`.
+3. Execute o comando abaixo substituindo <MINHA_SENHA> por uma senha escolhida por você para acessar a database. **ATENÇÃO**: a senha deve ser escolhida na primeira vez que você subir a database.
+
+```bash
+sh cluster_up.sh <MINHAS_SENHA>
+```
+
+## 3 - Acessar a interface
+
+Após o comando docker no passo anterior terminar de executar, podemos acessar a interface do Neo4j em http://localhost:7474/.
+
+No primeiro acesso, coloque o usuário `neo4j` e a senha escolhida.
+
+## 4 - Verificar o dataset escolhido
+
