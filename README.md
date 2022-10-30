@@ -36,7 +36,7 @@ Visite https://arrows.app.
 
 Vamos trabalhar com a modelagem do Titanic da seguinte forma:
 
-![modelo_de_dados](/img/Titanic.png)
+![modelo_de_dados](/img/Titanic-2.png)
 
 ## 6 - Leitura dos dados
 
