@@ -40,4 +40,9 @@ Vamos trabalhar com a modelagem do Titanic da seguinte forma:
 
 ## 6 - Leitura dos dados
 
-...
+Para fazer a leitura dos dados direto da internet, copie o conteúdo do código `read_titanic_data.cypher`, cole no console do Neo4j e execute.
+
+## 7 - Fazendo consultas nos dados
+
+Alguns exemplos de consultas que podemos fazer:
+
