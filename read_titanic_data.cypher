@@ -5,6 +5,7 @@ WITH row WHERE row.PassengerId IS NOT NULL
 MERGE (p:Passenger {id: toInteger(row.PassengerId)})
 SET p.name = row.Name
 SET p.sex = row.Sex
+SET p.fare = toFloat(row.Fare)
 SET p.age = toFloat(row.Age);
 
 // Register Class Nodes
