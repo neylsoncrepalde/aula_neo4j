@@ -46,3 +46,11 @@ Para fazer a leitura dos dados direto da internet, copie o conteúdo do código 
 
 Alguns exemplos de consultas que podemos fazer:
 
+Selecionando apenas os passageiros da 3 classe que embarcaram pelo portão S:
+
+```sql
+MATCH (p:Passenger)-[r:IN_CLASS]->(c:Class)
+MATCH (p)-[e:EMBARKED_IN]->(g:Gate)
+WHERE c.id = '3' AND g.id = 'S'
+RETURN p, r, c, e, g;
+```
